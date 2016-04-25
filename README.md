@@ -16,18 +16,16 @@ Use it as you wish, commit and fork, and lets make the web safer.
 - Directory viewing/listing restrictions (even thou CHMOD is 755,777)
 - And a lot more
 
-## Planned versions
-- Windows (GUI builder)
-- Bash (GUI builder)
-- Plain (from git or online-gen)
-- Alternatives for NGINX
-
 # ToDo
+- [HIGH] Protect also from execution of all languages not ph
+- [HIGH] Protect execution from the uploads directory (but do serve the file) 
+- [HIGH] Protect from execution on the plugins and themes directory.
+- [HIGH] Protect wp-includes
 - Add hotlinking script (http://corz.org/server/tools/auto-hot-link/)
-- Add more anti-XSS variations
-- Add more anti-CSRF
 - Add more anti's
 - Optimization for SEO
 - Structurize the file itself :P
-# Live Action
+
+#Live Action
+
 You can see/gtmetrix a working site : http://scriptin.me
