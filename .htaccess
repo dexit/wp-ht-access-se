@@ -18,8 +18,8 @@ DirectoryIndex index.php
 
 # Redirect www urls to non-www
 RewriteEngine on
-RewriteCond %{HTTP_HOST} !^scriptin\.me
-RewriteRule (.*) http://scriptin.me/$1 [R=301,L]
+RewriteCond %{HTTP_HOST} !^YOURDOMAIN\.COM
+RewriteRule (.*) http://YOURDOMAIN.COM/$1 [R=301,L]
 
 # Block the include-only files.
 <IfModule mod_rewrite.c>
